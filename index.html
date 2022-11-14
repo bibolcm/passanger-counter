@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passenger counter</title>
 
-    
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
-        <h1>People counted</h1>
+        <h1>People counter</h1>
         <h2 id="count-el">0</h2>
-        <button  onclick="increment()">Increment</button>
-        <button type="button" onclick="save()">Save</button>
-        <button type="button" onclick="reset()">reset</button>
-        <p>Previous entries:<span id="previous-entries"></span></p>
-        <p>Total entries:<span id="total-entries"></span></p>
+
+        <button id="increment-btn" type="button" onclick="increment()">Increment</button>
+        <button id="save-btn" type="button" onclick="save()">Save</button>
+
+        <p>Previous entries: <span id="previous-entries"></span></p>
+        <p>Total entries: <span id="total-entries"></span></p>
         
-        <script src="counter.js" ></script>
+        <button id="reset-btn" type="button" onclick="reset()">reset</button>
     </div>
+
+    <script src="counter.js"></script>
 </body>
 </html>

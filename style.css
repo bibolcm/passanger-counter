@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+}
+span {
+font-weight: bold;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#increment-btn{
+    background-color: darkred ;
+}
+
+#save-btn{
+    background-color:darkgreen ;
+}
+#reset-btn{
+    background-color: darkgrey;
+}
+
